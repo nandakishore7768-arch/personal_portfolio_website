@@ -10,6 +10,7 @@ function Card(props){
                 </div>
                 
             <p className="text-xl leading-relaxed">{props.description}</p>
+            <p className="text-cl leading-relaxed">{props.link}</p>
         </div>
     )
 }
@@ -18,7 +19,7 @@ function Project(){
     return(
         <div className="text-white bg-blue-500 m-10 rounded-4xl pb-5" id="project">
             <h2 className="font-bold text-4xl text-center p-3">Project</h2>
-            <Card title = "Portfolio Website" stack = "HTML, CSS, ReactJS, TailWindCSS, Gen AI" time = "June 2026" description = {description} />
+            <Card title = "Portfolio Website" stack = "HTML, CSS, ReactJS, TailWindCSS, Gen AI" time = "June 2026" description = {description} link = "https://personal-portfolio-website-sigma-ten.vercel.app/" />
         </div>
     )
 }
