@@ -10,7 +10,7 @@ function Card(props){
                 </div>
                 
             <p className="text-xl leading-relaxed">{props.description}</p>
-            <p className="text-cl leading-relaxed">{props.link}</p>
+            <a href={props.link} className="text-xl leading-relaxed hover:scale-105">{props.link}</a>
         </div>
     )
 }
