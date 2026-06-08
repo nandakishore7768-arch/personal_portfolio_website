@@ -10,7 +10,7 @@ This website is a living showroom of my engineering journey and the functional A
 
 function Introduction(){
     return(
-        <div className="p-10 ml-10 text-white mt-0 flex m-auto bg-blue-800 rounded-4xl justify-center items-center gap-6 mr-10 animate-[fadeIn_1s_ease-out]" id="home">
+        <div className="p-10 ml-10 text-white mt-100 flex m-auto bg-blue-800 rounded-4xl justify-center items-center gap-6 mr-10 animate-[fadeIn_1s_ease-out]" id="home">
             <h2 className="text-4xl w-1/4 font-bold">About Me</h2>
             <p className="w-3/4 text-xl hover:bg-white shadow-md shadow-black hover:text-blue-700 leading-relaxed hover:scale-102 transition-transform duration-150 bg-blue-400 p-5 rounded-4xl shadow-md hover:shadow-black hover:shadow-xl">{portfolioIntro}</p>
         </div>
