@@ -12,7 +12,7 @@ import Contact from './contact'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header></Header>  
-    <h1>Portfolio website</h1>
+    <h1 className='text-center text-white text-8xl'>Portfolio website</h1>
     <Scroll><Introduction></Introduction></Scroll>
     <Scroll><Skills></Skills></Scroll>
     <Scroll><Education></Education></Scroll>
